@@ -73,3 +73,68 @@ numeros.unshift(90); // 0
 // shift
 // elimina el primer elemento del arreglo
 numeros.shift();
+
+// splice
+//elimina elementos apartir de una posicion en especificop
+// 2 parametros, el primero es obligatorio e indica desde que posicion comenzamos a eliminar
+// el segundo indica cuanto elementos se debe eliminar, si no se coloca, eliminara hasta el final
+// del arreglo
+
+
+// Objetos
+// sintaxis: const objeto = {};
+
+// propiedades, difienen valores
+// metodos, definen acciones
+
+const ramon = {
+  nombre: "Ramon hernandez",
+  edad: 45,
+  votar: true,
+  hobbies: ["futbol", "tocar la guitarra", "dormir"],
+  credencial: {
+    id: "FEFEFf",
+    direccion: "cerca del arroyo"
+  },
+  hablar: function() {},
+  correr: () => {},
+  gastar: () => {},
+  0: 56
+};
+
+// Crear o agregar
+ramon.altura = 1.75;
+ramon["peso"] = 80;
+
+const ramiro = {
+  nombre: "Ramiro hernandez",
+  votar: false,
+  hablar: function() {},
+  correr: () => {},
+  0: 56
+};
+
+// ramiro.hobbies = ["comer", "nadar", "jugar"];
+// ramiro["oficio"] = ["carpintero"];
+
+
+// lectura
+ramon.credencial.vigencia = true; //
+ramon["credencial"];
+
+// actualizacion
+ramiro.hobbies = ["comer", "nadar", "jugar"];
+ramiro["oficio"] = ["carpintero"];
+
+// eliminacion
+delete ramon.credencial.id
+
+
+// sugar sintaxis
+// spread operator
+
+// creacion de un objeto o arreglo a partir de otro
+let a = 5;
+let b = a;
+
+console.log("b",b)
