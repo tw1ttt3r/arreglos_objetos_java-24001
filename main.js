@@ -134,7 +134,13 @@ delete ramon.credencial.id
 // spread operator
 
 // creacion de un objeto o arreglo a partir de otro
-let a = 5;
-let b = a;
+// crear un nuevo arreglo apartir de otro
+// const nuevo = [ ...arreglo ]
 
-console.log("b",b)
+// crear un nuevo objeto apartir de otro
+// const nuevo = { ...objeto }
+
+const arr =[3,4,5];
+
+
+
